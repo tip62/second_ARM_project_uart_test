@@ -1,0 +1,25 @@
+--cpu Cortex-M4.fp
+"3\stm32f4xx_it.o"
+"3\stm32f4xx_hal_msp.o"
+"3\main.o"
+"3\stm32f4xx_hal_tim_ex.o"
+"3\stm32f4xx_hal_rcc_ex.o"
+"3\stm32f4xx_hal_flash.o"
+"3\stm32f4xx_hal_rcc.o"
+"3\stm32f4xx_hal_gpio.o"
+"3\stm32f4xx_hal_cortex.o"
+"3\stm32f4xx_hal_pwr.o"
+"3\stm32f4xx_hal_pwr_ex.o"
+"3\stm32f4xx_hal_flash_ramfunc.o"
+"3\stm32f4xx_hal_dma_ex.o"
+"3\stm32f4xx_hal_tim.o"
+"3\stm32f4xx_hal_dma.o"
+"3\stm32f4xx_hal.o"
+"3\stm32f4xx_hal_flash_ex.o"
+"3\stm32f4xx_hal_uart.o"
+"3\startup_stm32f407xx.o"
+"3\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "3\3.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "3.map" -o 3\3.axf
